@@ -1,0 +1,6 @@
+---
+- name: Get x86bit apps
+  include_tasks: get_x86_apps.yml
+
+- name: Get x64bit apps
+  include_tasks: get_x64_apps.yml
